@@ -115,7 +115,7 @@ body {
   align-self: center;
 }
 .home-bg-img {
-  background-image: url("/assets/home-bg.jpg");
+  background-image: url("home-bg.jpg");
   background-position: center;
   background-size: cover;
   height: 93vh;
