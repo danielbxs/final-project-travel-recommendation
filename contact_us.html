@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyTravel</title>
+    <script src="travel_recommendation.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navigation">
+      <div class="nav-logo">
+        <a href="/">EasyTravel</a>
+      </div>
+      <ul class="nav-link-list">
+        <li class="nav-link-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-link-item">
+          <a class="nav-link" href="about_us.html">About Us</a>
+        </li>
+        <li class="nav-link-item">
+          <a class="nav-link" href="contact_us.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="home-bg-img">
+        <div class="contact-box">
+          <div class="contact-title-box">
+            <h1 class="contact-title">Contact Us</h1>
+            <span class="description">Let us hear from you.</span>
+          </div>
+          <form class="contact-form">
+            <label for="contact-name">Name</label>
+            <input
+              type="text"
+              name="contact-name"
+              id="contact-name"
+              placeholder="Your Name"
+            />
+            <label for="contact-email">Email</label>
+            <input
+              type="email"
+              name="contact-email"
+              id="contact-email"
+              placeholder="email@example.com"
+            />
+            <label for="contact-message">Your Message</label>
+            <textarea name="contact-message" id="contact-message"></textarea>
+            <button class="contact-btn">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
